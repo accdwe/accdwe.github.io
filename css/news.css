@@ -1,0 +1,126 @@
+.text-content{
+  line-height: 45px;
+  background: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0 80px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.text-content .text-title{
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.article-left,.article-right{
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.article-left .article-title{
+  width: 100%;
+  padding-right: 35%;
+  padding-bottom: 30px;
+  height: 400px;
+  background: rgb(107, 35, 30);
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  letter-spacing: 5px;
+}
+.article-right .article-title{
+  width: 100%;
+  padding-left: 35%;
+  padding-bottom: 30px;
+  height: 400px;
+  background: rgb(107, 35, 30);
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  letter-spacing: 5px;
+}
+.article-title .date{
+  font-size: 35px;
+}
+.article-left .article-content{
+  width: 33%;
+  height: 400px;
+  background: rgb(231, 67, 57);
+  position: absolute;
+  right: 0;
+  top: 0;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  font-size: 30px;
+  color: white;
+  padding: 40px 40px 40px 10%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.article-content .link-icon{
+  background: url("../images/square-arrow.png") no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.link-icon .detail-link{
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 20px;
+}
+.article-right .article-content{
+  width: 33%;
+  height: 400px;
+  background: rgb(231, 67, 57);
+  position: absolute;
+  left: 0;
+  top: 0;
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  font-size: 30px;
+  color: white;
+  padding: 40px 10% 40px 40px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-us{
+  line-height: 45px;
+  color: rgb(227, 86, 56);
+  background: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0 80px;
+  letter-spacing: 5px;
+}
+.contact-us .contact-button{
+  margin-top: 30px;
+  background: rgb(227, 86, 56);
+  color: white;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.contact-us .contact-button .arrow-icon{
+  height: 25px;
+  width: 25px;
+  background: url("../images/arrow.png") no-repeat center center;
+  background-size: contain;
+
+}

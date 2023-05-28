@@ -1,0 +1,46 @@
+.contact-title{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.contact-content{
+  font-size: 20px;
+  text-align: center;
+}
+.contact-menu{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 130px;
+}
+.contact-menu > div{
+  width: 30%;
+  border-radius: 10px;
+  background: rgb(234, 110, 98);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+  height: 700px;
+  font-size: 22px;
+  color: white;
+}
+.address-title{
+  font-size: 28px;
+  text-align: center;
+}
+.address{
+  background: url("../images/address.png") no-repeat;
+  background-size: contain;
+  height: 550px;
+  margin: 30px 60px 100px;
+}
+.contact-method{
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 3px;
+}
+.footer{
+  margin-top: 100px;
+}
